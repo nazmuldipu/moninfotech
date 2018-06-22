@@ -15,6 +15,7 @@
     font-weight: 500;
   }
   & p {
+    text-align: justify;
     font-size: 16px;
     color: gray;
     padding: 10px 0;
@@ -42,7 +43,7 @@
   }
   & p {
     font-size: 16px;
-    // color: gray;
+    text-align: justify;
     padding: 10px 0;
     font-weight: 100;
   }

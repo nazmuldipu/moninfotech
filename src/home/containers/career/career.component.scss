@@ -19,7 +19,26 @@
   letter-spacing: 1mm;
 }
 
+@media (max-width: 767px) {
+  .top-headings {
+    height: 25vh;
+    background-size: 100%;
+  }
+  .company-title {
+    font-size: 25px;
+    padding-top: 10px;
+    text-shadow: 1px 0 1px rgba(6, 0, 60, 0.9);
+  }
+  .company-dialog {
+    font-size: 14px;
+    color: #06003c;
+    letter-spacing: 0.75mm;
+    text-shadow: 1px 0 4px white;
+  }
+}
+
 .job {
+  text-align: justify;
   padding: 20px 0;
   &-title {
     font-size: 25px;
@@ -32,23 +51,5 @@
     & span {
       font-weight: 600;
     }
-  }
-}
-
-@media (max-width: 767px) {
-  .top-headings {
-    height: 25vh;
-    background-size: 100%;
-  }
-  .company-title {
-    font-size: 30px;
-    padding-top: 110px;
-    text-shadow: 1px 0 1px rgba(6, 0, 60, 0.9);
-  }
-  .company-dialog {
-    font-size: 16px;
-    color: #06003c;
-    letter-spacing: 0.75mm;
-    text-shadow: 1px 0 4px white;
   }
 }
